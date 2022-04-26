@@ -35,11 +35,11 @@ This is a solution to the NFT preview card component challenge on Frontend Mento
 
 ## Links
 
-- Live Site URL: [NFT Card](https://ladislaubpaiva.github.io/nft-card)
+- Live Site URL: [NFT Card](https://ladislaubpaiva.github.io/challenges/nft-card)
 
 ## License
 
-This project is under the **MIT license**. See the [LICENSE](LICENSE) file for more details.
+This project is under the **MIT license**. See the [/LICENSE](LICENSE) file for more details.
 
 ---
 

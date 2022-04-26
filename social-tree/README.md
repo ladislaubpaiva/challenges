@@ -6,7 +6,6 @@ Page with a list of links (menu) that can be used in social network profiles to 
 
 </div>
 
-
 <p align="center">
   <a href="#built-with">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -36,11 +35,11 @@ Page with a list of links (menu) that can be used in social network profiles to 
 
 ## Links
 
-- Live Site URL: [Social Tree](https://ladislaubpaiva.github.io/social-tree)
+- Live Site URL: [Social Tree](https://ladislaubpaiva.github.io/challenges/social-tree)
 
 ## License
 
-This project is under the **MIT license**. See the [LICENSE](LICENSE) file for more details.
+This project is under the **MIT license**. See the [LICENSE](/LICENSE) file for more details.
 
 ---
 
