@@ -40,7 +40,7 @@ Page with a list of links (menu) that can be used in social network profiles to 
 
 ## License
 
-This project is under the **MIT license**. See the [LICENSE](LICENSE) file for more details.
+This project is under the **MIT license**. See the [LICENSE](/LICENSE) file for more details.
 
 ---
 
