@@ -36,7 +36,7 @@ Page with a list of links (menu) that can be used in social network profiles to 
 
 ## Links
 
-- Live Site URL: [Social Tree](https://ladislaubpaiva.github.io/social-tree)
+- Live Site URL: [Social Tree](https://ladislaubpaiva.github.io/challenges/social-tree)
 
 ## License
 
