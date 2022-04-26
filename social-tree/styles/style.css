@@ -1,0 +1,73 @@
+@import url(https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FAF7FD;
+}
+
+main {
+  top: 3em;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  height: 622px;
+  width: 328px;
+}
+
+.profile {
+  margin: 0 auto;
+  width: 200px;
+  justify-content: center;
+}
+
+.profile>img {
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid #BB99DD;
+  width: 200px;
+  height: 200px;
+}
+
+.profile>p {
+  color: #BB99DD;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 41px;
+}
+
+.links>ul li {
+  padding: 12px;
+  list-style: none;
+  border: 2px solid #BB99DD;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.links>ul li:hover,
+.links>ul li:hover>a {
+  background-color: #BB99DD;
+  color: white;
+}
+
+.links>ul a {
+  color: #BB99DD;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 56px;
+}
+
+.social-links>a {
+  font-size: 24px;
+  color: #BB99DD;
+  margin: 0px 15px;
+}

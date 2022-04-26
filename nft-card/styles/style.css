@@ -1,0 +1,124 @@
+  /* Base */
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+   :root {
+    /* -- Colors -- */
+    /*Primary*/
+    --Soft-blue: #8bacda;
+    --Cyan: #00fff7;
+    /*Neutral*/
+    --main-bg: #0d192b;
+    --card-bg: #14253d;
+    --line: #2f415b;
+    /* -- End Colors -- */
+    /* -- Colors -- */
+    --main-font: 'Outfit', sans-serif;
+    /* -- End Colors -- */
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    background-color: var(--main-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* // Base */
+  /* Card */
+
+  main.card {
+    width: 335px;
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 15px;
+    font-family: var(--main-font);
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  header.card img {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  header.card h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 15px 0px;
+  }
+
+  header.card h1 a,
+  footer.card p a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.685);
+    font-weight: 400;
+  }
+
+  header.card h1 a:hover,
+  footer.card p a:hover {
+    text-decoration: none;
+    color: var(--Cyan);
+    font-weight: 400;
+  }
+
+  section.card-container p {
+    color: var(--Soft-blue);
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  div.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  div.info p>strong {
+    color: var(--Cyan);
+    font-weight: 600;
+  }
+
+  div.info p {
+    font-weight: 400;
+    font-size: .9rem;
+  }
+
+  div.info p,
+  img {
+    display: inline-block;
+  }
+
+  footer.card {
+    border-top: 1px solid var(--line);
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  footer.card img {
+    width: 11%;
+    height: 11%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+
+  footer.card p {
+    color: var(--Soft-blue);
+  }
+
+  @media (max-width:375px) {
+    main.card {
+      height: 80%;
+    }
+  }
