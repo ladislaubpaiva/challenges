@@ -35,7 +35,7 @@ This is a solution to the Order summary component challenge on Frontend Mentor.
 
 ## Links
 
-- Live Site URL: [Order summary component](https://ladislaubpaiva.github.io/challenges/order-summary-card)
+- Live Site URL: [Order summary card](https://ladislaubpaiva.github.io/challenges/order-summary-card)
 
 ## License
 
