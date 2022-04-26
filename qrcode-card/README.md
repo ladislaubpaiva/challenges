@@ -35,7 +35,7 @@ This is a solution to the QR code component challenge on Frontend Mentor
 
 ## Links
 
-- Live Site URL: [QR Code Component](https://ladislaubpaiva.github.io/chanllenges/qr-code-component-main)
+- Live Site URL: [QR Code Card](https://ladislaubpaiva.github.io/chanllenges/qrcode-card)
 
 ## License
 
