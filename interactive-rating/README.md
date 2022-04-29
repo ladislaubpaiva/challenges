@@ -35,7 +35,7 @@ This is a solution to the Interactive Rating challenge on Frontend Mentor.
 
 ## Links
 
-- [Live Site URL](https://ladislaubpaiva.github.io/challenges/nft-card)
+- [Live Site URL](https://ladislaubpaiva.github.io/challenges/interactive-rating)
 
 ## License
 
