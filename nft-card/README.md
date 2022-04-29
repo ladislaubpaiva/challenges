@@ -39,7 +39,7 @@ This is a solution to the NFT preview card component challenge on Frontend Mento
 
 ## License
 
-This project is under the **MIT license**. See the [/LICENSE](LICENSE) file for more details.
+This project is under the **MIT license**. See the [LICENSE](/LICENSE) file for more details.
 
 ---
 
