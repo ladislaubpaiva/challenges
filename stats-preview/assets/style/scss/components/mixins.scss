@@ -1,0 +1,11 @@
+@mixin flex($v: false, $v2: true) {
+  display: flex;
+  justify-content: center;
+
+  @if ($v == true) {
+    flex-direction: column;
+  }
+  @if ($v2== true) {
+    align-items: center;
+  }
+}

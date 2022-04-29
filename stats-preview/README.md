@@ -1,6 +1,6 @@
 <div align=center>
 
-# Frontend Mentor - Interactive Rating
+# Frontend Mentor - Stats Preview
 
 This is a solution to the Interactive Rating challenge on Frontend Mentor.
 
@@ -27,7 +27,6 @@ This is a solution to the Interactive Rating challenge on Frontend Mentor.
 
 > - [HTML](#)
 > - [SCSS](#)
-> - [JS](#)
 
 ## Author
 
@@ -36,7 +35,7 @@ This is a solution to the Interactive Rating challenge on Frontend Mentor.
 
 ## Links
 
-- [Live Site URL](https://ladislaubpaiva.github.io/challenges/interactive-rating)
+- [Live Site URL](https://ladislaubpaiva.github.io/challenges/stats-preview)
 
 ## License
 

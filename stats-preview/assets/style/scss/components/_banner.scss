@@ -1,0 +1,68 @@
+.container {
+  @include flex;
+  background-color: $darkDesaturatedBlue;
+  color: #fff;
+  height: 420px;
+  max-width: 950px;
+  border-radius: 10px;
+  .banner-box {
+    flex: 1;
+    padding: 4rem;
+    height: 100%;
+    @include flex(true, false);
+    justify-content: space-between;
+    h1 {
+      font-family: $primaryFont;
+      font-size: 2rem;
+      span {
+        color: $softViolet;
+      }
+    }
+    p {
+      font-family: $additionalFont;
+      color: addAlpha($white, 99);
+      line-height: 1.5rem;
+      margin-top: -2rem;
+      margin-right: 1.4rem;
+    }
+    .stats {
+      @include flex;
+      justify-content: space-between;
+      div {
+        font-family: $additionalFont;
+        text-transform: uppercase;
+        strong {
+          display: block;
+          font-weight: 700;
+          font-family: $primaryFont;
+        }
+        span {
+          color: addAlpha($white, bf);
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .banner-img {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .background {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      background-color: addAlpha(#41006a, b0);
+    }
+  }
+}

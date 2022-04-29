@@ -1,0 +1,6 @@
+@use 'sass:string';
+
+@function addAlpha($color, $alpha) {
+  $alphaColor: string.unquote('#{$color}#{$alpha}');
+  @return $alphaColor;
+}
