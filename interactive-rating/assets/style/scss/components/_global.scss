@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: $primaryFont;
+  background-color: $veryDarkBlue;
+  @include flex(true);
+}
+p {
+  font-size: 15px;
+}
