@@ -1,0 +1,8 @@
+@mixin flex($center: false) {
+  @if ($center == true) {
+    align-items: center;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

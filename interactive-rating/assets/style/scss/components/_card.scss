@@ -1,0 +1,101 @@
+.card {
+  gap: 1rem;
+  @include flex;
+  padding: 2.1rem;
+  max-width: 25rem;
+  border-radius: 15px;
+  background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
+
+  .img-rating {
+    align-self: flex-start;
+
+    img {
+      padding: 1rem;
+      border-radius: 50%;
+      background-color: $darkBlue;
+    }
+  }
+
+  .card-title {
+    color: #fff;
+    align-self: flex-start;
+    font-size: 1.7rem;
+    padding-top: 0.2rem;
+  }
+  .card-alert {
+    color: $mediumGrey;
+    font-weight: 500;
+    line-height: 1.5rem;
+  }
+  .rate-area {
+    display: flex;
+    justify-content: space-between;
+
+    .option {
+      width: 3rem;
+      height: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      color: $mediumGrey;
+      border-radius: 50%;
+      margin: 5px 0;
+      background-color: $darkBlue;
+      transition: all 0.3s;
+      &:hover {
+        background-color: $primaryColor;
+        color: #fff;
+        cursor: pointer;
+      }
+      &.selected {
+        color: #fff;
+        background-color: $lightGrey;
+      }
+    }
+  }
+  .btn-card {
+    cursor: pointer;
+    background-color: $primaryColor;
+    color: #fff;
+    padding: 1rem 0;
+    border: 0;
+    margin-top: 0.5rem;
+    border-radius: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: #fff;
+      color: $primaryColor;
+    }
+  }
+}
+
+.card.submitted {
+  align-items: center;
+
+  img {
+    display: block;
+    margin: auto;
+  }
+  .rate-alert {
+    align-self: center;
+    color: $primaryColor;
+    font-weight: 400;
+    background-color: $darkBlue;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    margin: 1rem auto;
+  }
+  .card-title {
+    align-self: center;
+  }
+  .card-alert {
+    text-align: center;
+  }
+}
+
+.hide {
+  display: none;
+}
