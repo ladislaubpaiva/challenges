@@ -5,6 +5,9 @@
   height: 420px;
   max-width: 950px;
   border-radius: 10px;
+  margin: 1rem;
+  overflow: hidden;
+
   .banner-box {
     flex: 1;
     padding: 4rem;
@@ -14,6 +17,7 @@
     h1 {
       font-family: $primaryFont;
       font-size: 2rem;
+
       span {
         color: $softViolet;
       }
@@ -22,8 +26,7 @@
       font-family: $additionalFont;
       color: addAlpha($white, 99);
       line-height: 1.5rem;
-      margin-top: -2rem;
-      margin-right: 1.4rem;
+      margin: -2.6rem 1.4rem 0 0;
     }
     .stats {
       @include flex;
@@ -31,15 +34,16 @@
       div {
         font-family: $additionalFont;
         text-transform: uppercase;
-        strong {
-          display: block;
-          font-weight: 700;
-          font-family: $primaryFont;
-        }
-        span {
-          color: addAlpha($white, bf);
-          font-weight: 400;
-        }
+      }
+      strong {
+        display: block;
+        font-weight: 700;
+        font-family: $primaryFont;
+        font-size: 1.2rem;
+      }
+      span {
+        color: addAlpha($white, bf);
+        font-weight: 400;
       }
     }
   }
@@ -47,7 +51,6 @@
     position: relative;
     flex: 1;
     height: 100%;
-    overflow: hidden;
 
     img {
       display: block;
@@ -63,6 +66,39 @@
       height: 100%;
       width: 100%;
       background-color: addAlpha(#41006a, b0);
+    }
+  }
+}
+
+@media (max-width: 975px) {
+  .container {
+    flex-direction: column;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+
+    .banner-box {
+      order: 1;
+      h1 {
+        font-size: 1.8rem;
+      }
+      p {
+        margin: 1rem 0;
+      }
+      .stats {
+        @include flex(true);
+        gap: 10px;
+        strong {
+          font-size: 1.6rem;
+        }
+        span {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .banner-img {
+      order: 0;
+      width: 100%;
     }
   }
 }
