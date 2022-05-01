@@ -1,0 +1,64 @@
+.container {
+  @include flex;
+  max-width: 1100px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.column {
+  height: 100%;
+  padding: 3rem;
+  @include flex(col, false, false);
+  align-items: flex-start;
+  gap: 2.6rem;
+  .col-icon {
+    text-transform: uppercase;
+  }
+  .col-title {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    color: $veryLightGray;
+  }
+  .col-body {
+    font-size: 0.94rem;
+    line-height: 2rem;
+    color: $transparentWhite;
+    font-family: $primaryFont;
+  }
+  .col-btn {
+    margin-top: 6rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: $veryLightGray;
+    border: 2px solid $transparentWhite;
+    transition: all 0.3s;
+  }
+  &.sedans {
+    background-color: $brightOrange;
+    .col-btn {
+      color: $brightOrange;
+      &:hover {
+        @include btn-hover($brightOrange);
+      }
+    }
+  }
+  &.suvs {
+    background-color: $darkCyan;
+    .col-btn {
+      color: $darkCyan;
+      &:hover {
+        @include btn-hover($darkCyan);
+      }
+    }
+  }
+  &.luxury {
+    background-color: $veryDarkCyan;
+    .col-btn {
+      color: $veryDarkCyan;
+      &:hover {
+        @include btn-hover($veryDarkCyan);
+      }
+    }
+  }
+}

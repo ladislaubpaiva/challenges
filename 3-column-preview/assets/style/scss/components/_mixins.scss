@@ -1,0 +1,17 @@
+@mixin flex($dir: row, $align: true, $jus: true) {
+  display: flex;
+  @if ($align == true) {
+    align-items: center;
+  }
+  @if ($jus == true) {
+    justify-content: center;
+  }
+  @if ($dir == col) {
+    flex-direction: column;
+  }
+}
+@mixin btn-hover($back) {
+  color: #fff;
+  cursor: pointer;
+  background-color: $back;
+}
