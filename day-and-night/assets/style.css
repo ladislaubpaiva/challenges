@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: #eaf2ff;
+  --text: #000;
+  --card: #505050;
+  --secondary: linear-gradient(to top, #8743ff, #4136f1);
+}
+
+body {
+  background: var(--bgColor);
+  font-family: system-ui;
+  transition: background 0.3s;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.dark {
+  --bgColor: #171717;
+  --text: #fff;
+  --card: #e0e0e0;
+}
+
+h1 {
+  position: absolute;
+  top: 9rem;
+  font-family: cursive;
+  color: var(--card);
+}
+
+.theme-toggle {
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: var(--secondary);
+  transition: background 0.3s;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #00000038;
+}

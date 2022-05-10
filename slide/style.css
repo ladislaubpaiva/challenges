@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: left 0.3s;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  border: 1px solid #333;
+  border-radius: 30px;
+  background-color: rgba(51, 51, 51, 0.342);
+  margin: 0 auto;
+  width: 60px;
+  height: 30px;
+  position: relative;
+  padding: 2px;
+  cursor: pointer;
+}
+main .slider {
+  height: 100%;
+  width: 50%;
+  border-radius: 50%;
+  position: relative;
+  left: 0%;
+  background-color: #fff;
+}
+img {
+  object-fit: contain;
+  margin: 0 auto;
+}
