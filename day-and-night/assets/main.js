@@ -3,7 +3,6 @@
   if (localStorage.getItem('dark-mode')) {
     isDark = true;
     setDarkTheme();
-  } else {
   }
   const themeToggle = document.querySelector('.theme-toggle');
   themeToggle.addEventListener('click', () => {
