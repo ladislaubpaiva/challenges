@@ -2,8 +2,6 @@
 
 # Frontend Mentor - Interactive Rating
 
-This is a solution to the Interactive Rating challenge on Frontend Mentor.
-
 </div>
 
 <p align="center">
@@ -21,13 +19,13 @@ This is a solution to the Interactive Rating challenge on Frontend Mentor.
 </div>
  <br>
 
-![Design preview for the QR code component coding challenge](./assets/desktop-preview.jpg)
+![Design preview for coding challenge](/.github/interactive-rating.jpg)
 
 ## Built with
 
-> - [HTML](#)
-> - [SCSS](#)
-> - [JS](#)
+> - HTML
+> - SCSS
+> - JS
 
 ## Author
 

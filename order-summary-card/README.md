@@ -2,8 +2,6 @@
 
 # Frontend Mentor - Order Summary Component
 
-This is a solution to the Order summary component challenge on Frontend Mentor.
-
 </div>
 
 <p align="center">
@@ -21,12 +19,12 @@ This is a solution to the Order summary component challenge on Frontend Mentor.
 </div>
  <br>
 
-![Design preview for the Order summary component coding challenge](./design/desktop-desin.jpg)
+![Design preview for coding challenge](/.github/order-summary-card.jpg)
 
 ## Built with
 
-> - [HTML](https://html.spec.whatwg.org/multipage/)
-> - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+> - HTML
+> - SCSS
 
 ## Author
 

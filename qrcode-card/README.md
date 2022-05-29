@@ -2,8 +2,6 @@
 
 # Frontend Mentor - QR Code Component
 
-This is a solution to the QR code component challenge on Frontend Mentor
-
 </div>
 
 <p align="center">
@@ -21,12 +19,12 @@ This is a solution to the QR code component challenge on Frontend Mentor
 </div>
  <br>
 
-![Design preview for the QR code component coding challenge](./design/desktop-design.png)
+![Design preview for coding challenge](/.github/qrcode-card.png)
 
 ## Built with
 
-> - [HTML](https://html.spec.whatwg.org/multipage/)
-> - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+> - HTML
+> - SCSS
 
 ## Author
 

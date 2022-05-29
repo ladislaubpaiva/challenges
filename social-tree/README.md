@@ -2,8 +2,6 @@
 
 # Rocketseat - Social Tree
 
-Page with a list of links (menu) that can be used in social network profiles to direct the user to the chosen location. Using HTML and CSS.
-
 </div>
 
 <p align="center">
@@ -21,12 +19,12 @@ Page with a list of links (menu) that can be used in social network profiles to 
 </div>
  <br>
 
-![Design preview for Social Tree coding challenge](./design/desktop-design.png)
+![Design preview for coding challenge](/.github/social-tree.png)
 
 ## Built with
 
-> - [HTML](https://html.spec.whatwg.org/multipage/)
-> - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+> - HTML
+> - SCSS
 
 ## Author
 

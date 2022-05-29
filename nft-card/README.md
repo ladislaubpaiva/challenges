@@ -2,8 +2,6 @@
 
 # Frontend Mentor - NFT Card Design
 
-This is a solution to the NFT preview card component challenge on Frontend Mentor.
-
 </div>
 
 <p align="center">
@@ -21,12 +19,12 @@ This is a solution to the NFT preview card component challenge on Frontend Mento
 </div>
  <br>
 
-![Design preview for the QR code component coding challenge](./design/desktop-design.png)
+![Design preview for coding challenge](/.github/nft-card.png)
 
 ## Built with
 
-> - [HTML](https://html.spec.whatwg.org/multipage/)
-> - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+> - HTML
+> - SCSS
 
 ## Author
 
