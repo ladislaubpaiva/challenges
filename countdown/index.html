@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+    <title>Countdown</title>
+  </head>
+  <body>
+    <div class="container-dialog">
+      <dialog id="happy-form">
+        <h1>Happy Birthday</h1>
+        <form>
+          <fieldset>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" />
+          </fieldset>
+          <fieldset>
+            <label for="msg">Your Message</label>
+            <textarea rows="20" id="msg" name="msg"></textarea>
+          </fieldset>
+          <button>Send Message</button>
+          <a href="">Close</a>
+        </form>
+      </dialog>
+    </div>
+    <img src="./assets/images/top-image.svg" />
+    <main>
+      <div class="countdown-container">
+        <h1 class="title">My Birthday in...</h1>
+        <div class="time">
+          <ul class="clock">
+            <li>
+              <div>Day(s)</div>
+              <span data-time>---:</span>
+            </li>
+
+            <li>
+              <div>Hour(s)</div>
+              <span data-time>--:</span>
+            </li>
+
+            <li>
+              <div>Minute(s)</div>
+              <span data-time>--:</span>
+            </li>
+
+            <li>
+              <div>Second(s)</div>
+              <span data-time>--</span>
+            </li>
+          </ul>
+        </div>
+        <p>Sign up to learn more about the launch</p>
+        <button class="sign-btn">Happy Birthday</button>
+      </div>
+      <aside>
+        <img src="./assets/images/rocket.svg" />
+      </aside>
+    </main>
+    <img src="./assets/images/bottom-image.svg" />
+    <script type="module" src="./assets/js/script.js"></script>
+    <script src="./assets/js/form.js"></script>
+  </body>
+</html>

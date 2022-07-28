@@ -1,0 +1,28 @@
+@media (max-width: 1000px) {
+  main {
+    max-width: 100%;
+    flex-direction: column;
+    .countdown-container {
+      order: 1;
+    }
+    aside {
+      order: 0;
+      display: flex;
+      justify-content: center;
+      img {
+        max-width: 70%;
+      }
+    }
+  }
+  .clock span {
+    font-size: 3.1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .title {
+    font-size: 10vw;
+  }
+  .clock span {
+    font-size: 10vw;
+  }
+}

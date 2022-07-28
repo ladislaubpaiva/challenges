@@ -1,0 +1,51 @@
+.countdown-container {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.countdown-container p {
+  color: $text-color;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: $purple;
+  font-weight: 700;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+.clock {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2px;
+  width: 100%;
+  div {
+    color: $light-grey;
+    font-weight: 300;
+    font-size: 0.8rem;
+    display: block;
+    flex: 1;
+    text-align: center;
+  }
+  span {
+    color: #f5f5ff;
+    font-size: 4.5rem;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0 10px;
+    background-color: $purple;
+    font-family: monospace;
+  }
+}
+.sign-btn {
+  margin: auto;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 0.7rem 2rem;
+  cursor: pointer;
+  background-color: $purple;
+}
