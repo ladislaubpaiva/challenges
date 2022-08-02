@@ -24,7 +24,7 @@
 ## Built with
 
 > - HTML
-> - SCSS
+> - CSS
 
 ## Author
 
