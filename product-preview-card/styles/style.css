@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: hsl(158, 36%, 37%);
+  --bg-color: hsl(30, 38%, 92%);
+  --primary-font: 'Montserrat', sans-serif;
+  --title-font: 'Fraunces', serif;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.6rem;
+  background-color: var(--bg-color);
+}
+
+body,
+.price {
+  display: flex;
+  align-items: center;
+}
+
+main {
+  margin: 0 auto;
+  display: flex;
+  max-width: 62rem;
+  height: 46rem;
+  font-weight: 500;
+  overflow: hidden;
+  background: hsl(0, 0%, 100%);
+  border-radius: 1.5rem;
+}
+
+section {
+  width: 50%;
+}
+
+.product-preview img {
+  height: 100%;
+}
+
+.text {
+  display: grid;
+  padding: 3rem;
+  background: hsl(0, 0%, 100%);
+  align-content: space-around;
+}
+
+.text h1 {
+  font-size: 3.5rem;
+  line-height: 0.9;
+  font-weight: bold;
+  color: hsl(212, 21%, 14%);
+  font-family: var(--title-font);
+}
+
+.text p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-family: var(--primary-font);
+  color: hsl(228, 12%, 48%);
+}
+
+.emphasis {
+  font-size: 1.3rem;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  color: hsl(228, 12%, 48%);
+  font-family: var(--primary-font);
+}
+
+.price {
+  gap: 2rem;
+}
+
+.price .actual {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  font-family: var(--title-font);
+}
+
+.price .last {
+  font-size: 1.5rem;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+  font-family: var(--primary-font);
+}
+
+.button {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 1rem;
+  justify-content: center;
+  color: hsl(0, 0%, 100%);
+  font-size: 1.4rem;
+  font-family: var(--primary-font);
+  background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 662px) {
+  main {
+    flex-direction: column;
+    overflow: auto;
+    width: 96vw;
+    height: 96vh;
+  }
+
+  section {
+    width: 100%;
+  }
+
+  .product-preview img {
+    width: 100%;
+  }
+
+  .text {
+    flex: 1;
+  }
+
+  .text p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
