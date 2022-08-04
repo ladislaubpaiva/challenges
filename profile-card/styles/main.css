@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --bg-color: hsl(185, 75%, 39%);
+  --gray-color: hsl(0, 0%, 59%, 0.5);
+  --text-color: hsl(229, 23%, 23%);
+  --alt-color: hsl(227, 10%, 46%);
+  --main-font: 'Kumbh Sans', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+
+  font-size: 1.6rem;
+  overflow: hidden;
+  align-items: center;
+  font-family: var(--main-font);
+  background-color: var(--bg-color);
+}
+
+body::before,
+body::after {
+  content: '';
+  width: 978px;
+  height: 978px;
+  display: block;
+  z-index: -1;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body::before {
+  top: -20%;
+  left: -4%;
+  background-image: url('../images/bg-pattern-top.svg');
+}
+
+body::after {
+  right: -4%;
+  bottom: -20%;
+  background-image: url('../images/bg-pattern-bottom.svg');
+}
+
+.profile-card {
+  min-width: 30rem;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border-radius: 1.5rem;
+  background-color: hsl(0, 100%, 100%);
+}
+
+.profile-card-header {
+  margin-bottom: 2rem;
+}
+
+.profile-card-header img {
+  width: 100%;
+}
+
+.profile img {
+  object-fit: cover;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -25%);
+  border-radius: 50%;
+  border: 0.5rem solid hsl(0, 100%, 100%);
+}
+
+.profile {
+  margin-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.profile h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.profile span {
+  font-weight: 400;
+  margin-left: 0.6rem;
+  color: var(--alt-color);
+}
+
+.profile p {
+  color: var(--alt-color);
+}
+
+.profile-info {
+  display: flex;
+  padding: 2rem 2rem;
+  border-top: 0.01rem solid var(--gray-color);
+  justify-content: space-around;
+}
+
+.profile-info h2 {
+  font-size: 1.8rem;
+  color: var(--text-color);
+  margin-bottom: 0.4rem;
+}
+
+.profile-info span {
+  font-size: 1.4rem;
+  color: var(--alt-color);
+}
